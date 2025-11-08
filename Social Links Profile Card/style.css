@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.card h2{
+    font-size: 25px;
+    }
+
+.address {
+    color: #c4f000;
+    }
+
+.bio {
+    font-size: 0.9em;
+    color: #ccc;
+    margin-bottom: 25px;
+    }
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    }
+
+.button{
+    background-color: #2b2b2b;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    }
