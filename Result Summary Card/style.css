@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.card {
+    display: flex;
+    border-radius: 20px;
+    width: 600px;
+    max-width: 90%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+.card-left {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(0,0%,100%);
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    }
+
+.score {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 40px;
+    margin: 0 auto 20px auto;
+    }
+
+.full{
+    font-size: 10px;
+}
+
+.great {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+
+.description {
+    font-size: 14px;
+    opacity: 0.8;
+    }
+
+.card-right {
+    background: hsl(0,0%,100%);
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    }
+
+.summary h3 {
+    margin-top: 0;
+    color: hsl(224,30%,27%);
+    }
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    }
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 31%, 93%);
+    }
+
+.memory {
+    color: hsl(39, 100%, 56%);
+    background-color:hsl(70, 45%, 92%);
+    }
+.verbal {
+    color: hsl(166, 100%, 37%);
+    background-color:hsl(193, 56%, 92%);
+    }
+.visual {
+    color: hsl(234, 85%, 45%);
+    background-color:rgb(213, 213, 237);
+    }
+
+img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.continue-button {
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+    text-align: center;
+    background-color: hsl(224,30%,27%);
+    color: hsl(0,0%,100%);
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    }
