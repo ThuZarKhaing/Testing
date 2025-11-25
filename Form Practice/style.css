@@ -1,0 +1,98 @@
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    }
+
+    .survey-container {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    .survey-header {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+    .survey-image {
+    width: 300px;
+    margin-bottom: 15px;
+    }
+
+    h2 {
+    margin: 0;
+    font-size: 24px;
+    }
+
+    p {
+    font-size: 14px;
+    color: #555;
+    }
+
+    .survey-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    }
+
+    .survey-form input,
+    .survey-form select,
+    .survey-form textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    }
+
+    .survey-form textarea {
+    resize: vertical;
+    }
+
+    button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #5c6ac4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    }
+
+    button:hover {
+    background-color: #4a54a1;
+    }
+
+    .stars input {
+    display: none;
+    }
+
+    .stars label {
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+    }
+
+    .stars input:checked ~ label,
+    .stars label:hover,
+    .stars label:hover ~ label {
+    color: #ffc107;
+    }
+
+    .radio-group, .checkbox-group, .rate-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    }
