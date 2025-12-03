@@ -1,0 +1,39 @@
+body {
+    margin: 100px 0px;
+    background: white;
+    font-family: Georgia, serif;
+}
+
+.dashboard {
+    width: 100%;
+    height: 300px;
+    background: #2f3b49;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background: rgba(200, 70, 50, 0.9);
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    top: 40px;
+}
+
+.rectangle {
+    width: 180px;
+    height: 130px;
+    background: rgba(70, 120, 180, 0.85);
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+.text-box {
+    text-align: center;
+    color: white;
+}
